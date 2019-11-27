@@ -1,53 +1,16 @@
-header,footer{
-  background:#eee
-}
-.container{
-  display:flex;
-}
-.left{
-  flex:0 100px;
-  background:skyblue;
-}
+/* small screen */
 
-.center{
-  flex:1;
-  background:pink;
-}
 
-.right{
-  flex:0 100px;
-  background:yellowgreen;
-}
-
-@media all and (max-width: 500px){
-  .container{
-    flex-direction:column;
-  }
-  .center{
-    order:1;
-    flex:100%;
-  }
-  .left{
-    order:2;
-    flex:100%;
-  }
-  .right{
-    order:3;
-    flex:100%;
+/* medium screen */
+@media (min-width:600px){
+  body{
+    background:skyblue;
   }
 }
 
-.box{
-  width:80px;
-  height:80px;
+/* large screen */
+@media (min-width:800px) {
+  body{
+    background:skyblue;
+  }
 }
-
-.box-1{ background: red;
-}
-.box-2{ background: blue;
-  margin-left:auto;
-}
-.box-3{ background: purple;
-}
-.box-4{ background: green;}
-.box-5{ background: magenta;}
