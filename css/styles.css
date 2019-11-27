@@ -18,3 +18,15 @@
 .main > p:first-child{
   background-color:purple;
 }
+
+h1, h2, p {
+  border:1px solid blue;
+}
+
+img {
+  float:right;
+}
+
+h2{
+  clear:right;
+}
